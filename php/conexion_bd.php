@@ -10,9 +10,9 @@ $pass = "19931993";
 $db = "tpv";
 
 try {
-    $conecxion_bd = new PDO("mysql:host=$servidor;dbname=$bd;", $user, $pass);
+    $conexion_bd = new PDO("mysql:host=$servidor;dbname=$bd;", $user, $pass);
     // Establecer el modo de error de PDO a exepcion
-    $conecxion_bd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $conexion_bd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
     
    }
